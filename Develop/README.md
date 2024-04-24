@@ -3,7 +3,7 @@
   [![License:MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
-  Helps user create quality readme file
+  Allows user to input the elements necesary in creating a quality readme file necessary for their application.
 
   ## Table of Contents
 
@@ -15,11 +15,11 @@
   
   ## Installation
 
-  By following the instructions provide in the readme file underinstallationfro the application
+  By following the instructions given in the install section of readme.
 
   ## Usage
 
-  By inputing the answers to the given prompt to generate a readme file
+  To create readme
 
   ## License
 
@@ -27,7 +27,7 @@
 
   ## Contributing
 
-  Reach out to the email address provded in the contributer section of the readme file
+  Look at contibuting section of readme.
 
   ## Tests
 

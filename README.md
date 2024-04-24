@@ -15,7 +15,8 @@ Link to the recording of how user can access the prompts to generate a quality r
 ## Screenshots
 Finished readme file  should look like this:
 
-![alt= Webpage Preview](./Images/README-example.png)s
+![alt= Webpage Preview](./Images/README-example.png)
+![alt= Webpage Preview](./Images/Question-prompts.png)
 
 ## Credits
 Learning Xpert UT BCS
