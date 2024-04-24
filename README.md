@@ -12,11 +12,10 @@ Front-End technologies such JavaScript. Back-end technologies such as node.js, a
 Link to the recording of how user can access the prompts to generate a quality readme file.
 
 
-
 ## Screenshots
 Finished readme file  should look like this:
 
-![alt= Webpage Preview](./Assets/payroll-tracker.png)
+![alt= Webpage Preview](./Images/README-example.png)s
 
 ## Credits
 Learning Xpert UT BCS
