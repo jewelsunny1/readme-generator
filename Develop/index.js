@@ -2,8 +2,8 @@
 //inquirer is a module(file ) of node that allows you to use functions to create prompts and interact with user//
 //remember require is like adding a script tag? and think import when you see require//
 
-//const inquirer= require('inquirer');// inthis case what we put in require should match the const name
-import inquirer from 'inquirer';
+const inquirer = require('inquirer');//inthis case what we put in require should match the const name
+
 
 
 // TODO: Create an array of questions for user input
@@ -44,6 +44,7 @@ const questions = [
     type:'input',
     name:'tests',
     message:'How should users run tests for you application?',
+    default:'You can run tests by executing the following command: npm test',
 },
 ];
     
@@ -72,7 +73,7 @@ function init() {
 //.then is method called when user has answered all questions.//it recieves the user's answers as a parameter(answers), then you can proceed to handle these answers
  .then(answers=>{//markdown content for READme is generated based on users' answers to the questions
     const readmeContent= generateMarkdown(answers);
-    writeToFile('README.md,readmeContent');//calling the writeToFile func f/o earlier to write genrated content to a file named 'README.md'
+    writeToFile('README.md',readmeContent);//calling the writeToFile func f/o earlier to write genrated content to a file named 'README.md'
  })
  .catch(error=>{
     console.log('Error',error);
@@ -80,4 +81,4 @@ function init() {
 
 }
 // Function call to initialize app
-init();
+init(); //that starts to ask the questions 

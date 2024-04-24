@@ -37,8 +37,10 @@ function renderLicenseSection(license) {
 }
 
 // TODO: Create a function to generate markdown for README
+//.title, .description, .installation...etc seen under generateMarkdown fucntion we are accessing the value given to the key 'names' we put in index.js (of the question object).
+//in this **data** is referring to the answers/reaponse given by the users!
 function generateMarkdown(data) {
-  return `# ${data.title}
+  return `# ${data.title} 
 
   ${renderLicenseBadge(data.license)}
 
